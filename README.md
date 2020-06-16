@@ -13,4 +13,6 @@ It is pretty easy. Inside the container running the image (doing something like 
 
 `minizinc --solver or-tools <your_model>.mzn`
 
-## That will force MiniZinc to solve your model using OR-Tools instead of Gecode (solver by default).
+That will force MiniZinc to solve your model using OR-Tools instead of Gecode (solver by default).
+
+Pull requests and commentaries for improving the Dockerfile are received.
