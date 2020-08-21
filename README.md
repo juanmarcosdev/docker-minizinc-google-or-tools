@@ -13,6 +13,6 @@ It is pretty easy. Inside the container running the image (doing something like 
 
 `minizinc <your_model>.mzn <your_data>.dzn`
 
-Within this image OR-Tools is setup to be the default solver. Optionally you can use the `--solver <or-tools/gecode/coinbc/chuffed>` flag to select a specific solver included in the image image.
+Within this image OR-Tools is setup to be the default solver. Optionally you can use the `--solver <or-tools/gecode/coinbc/chuffed>` flag to select a specific solver included in the image.
 
 Pull requests and commentaries for improving the Dockerfile are received.
