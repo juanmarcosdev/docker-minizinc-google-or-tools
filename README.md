@@ -5,7 +5,7 @@ Check it out and pull it at https://hub.docker.com/r/juanmarcos935/minizinc-or-t
 
 * This is an image forked from official MiniZinc image minizinc/minizinc. The additional feature that this image brings is that it has fully functional Google's OR-Tools constraint programming solver, apart from the ones that MiniZinc has in the official image (Gecode, Chuffed & Coin-BC). So pulling this image and executing it in a new container would bring you new possibilities, as you can run your MiniZinc models with this interesting solver from Google too.
 
-###### Credits & License to Google for developing OR Tools
+###### Credits & License to Monash University and MiniZinc Team for developing MiniZinc, Google for developing OR Tools
 
 ## How do I run my models using OR-Tools Solver?
 
