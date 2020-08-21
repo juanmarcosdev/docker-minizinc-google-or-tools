@@ -11,8 +11,8 @@ Check it out and pull it at https://hub.docker.com/r/juanmarcos935/minizinc-or-t
 
 It is pretty easy. Inside the container running the image (doing something like `docker exec -it <your_container_name_or_id> /bin/bash`) you can easily from command line:
 
-`minizinc --solver or-tools <your_model>.mzn`
+`minizinc <your_model>.mzn <your_data>.dzn`
 
-That will force MiniZinc to solve your model using OR-Tools instead of Gecode (solver by default).
+Within this image OR-Tools is setup to be the default solver. Optionally you can use the `--solver <or-tools/gecode/coinbc/chuffed>` flag to select a specific solver included in the image image.
 
 Pull requests and commentaries for improving the Dockerfile are received.
