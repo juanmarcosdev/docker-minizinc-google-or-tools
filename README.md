@@ -1,5 +1,5 @@
 <h1>TL;DR for this repo:</h1>
-<img src="https://1000marcas.net/wp-content/uploads/2020/02/Docker-Logo.png" height="100" width="100">
+<img src="https://1000marcas.net/wp-content/uploads/2020/02/Docker-Logo.png" height="100" width="150">
 <ul>
   <li><h4>Technology Language used:</h4>Docker</li>
   <li><h4>Approximate date:</h4>First semester of 2020</li>
